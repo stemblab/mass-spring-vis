@@ -1,4 +1,1 @@
-mass-spring-vis
-===============
-
-Mass/spring visualization functions.
+![](https://github.com/stemblab/mass-spring-vis/blob/gh-pages/thumb.png)
