@@ -74,7 +74,7 @@ class SpringsAndMasses
         $("##{divId}")?.remove()
         hiddenDiv = $("<div>", css: {display: "none"}, id: divId)
         $("#blab_container").append hiddenDiv
-        d3.select("#codeout_html").selectAll("svg").remove()
+        d3.select("#blab_container").selectAll("svg").remove()
         hiddenDiv.append """
         <svg
            id="svg_springs" xmlns="http://www.w3.org/2000/svg"
